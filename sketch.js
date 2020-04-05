@@ -60,10 +60,6 @@ function draw() {
     fill(170);
     strokeWeight(4);
     rectMode(CENTER);
-    fill("brown");
-    rect(cealing.position.x, cealing.position.y, width, 10);
-    rect(wall1.position.x, wall1.position.y, 10, 430);
-    rect(wall2.position.x, wall2.position.y, 10, 430);
     rect(ground.position.x, ground.position.y, width, 10);
     fill(255);
     textSize(15);
